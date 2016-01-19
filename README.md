@@ -1,5 +1,5 @@
 # Getting-and-cleanning-data
-Coursera_get and clean data
+
 Regarding to the Coursera-getting and cleanning data, assignment project.
 
 Containing Codebook, features_info, readme_original, run_analysis.R, Q4.txt, Q5.txt, 
