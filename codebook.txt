@@ -1,0 +1,34 @@
+The file contains Codebook, readme_original, run_analysis.R, Q4.txt, Q5.txt, features_info
+
+readme_original describes the dataset and how the experiments run.
+
+run_analysis is R code cleanning the original data.
+First please save your file in the working directory
+
+Q4.txt is the table regarding to the project step 1:4.
+It contains 10299 objects and 50 variables.
+
+Activities:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+subjects:
+1 to 30 volunteers
+
+Test.Trainning:
+two groups: test group or training group
+
+Index: 
+combines subject and activities.
+
+The other columns please refer to the features_info file
+
+--
+
+Q5.txt is a table with 40 objects and 47 variables.
+It refers to the project step5:
+independent tidy data set with the average of each variable for each activity and each subject as the conlumn index.
