@@ -1,5 +1,5 @@
-##UCI HAR Dataset is in the desktop
-file<-"C:/Users/Ahuaflower/Desktop/UCI HAR Dataset"
+##First please set your working directory- UCI HAR Dataset
+file<-getwd()
 setwd(file)
 lsfile<-list.files()
 
@@ -48,12 +48,16 @@ number<-c(1,2,3,number)
 ExtractData<-data[,number]
 
 library(reshape2)
+library(plyr)
 ExtractData<-mutate(ExtractData,index=paste(ExtractData$`ActLab$Activity`,ExtractData$subject,sep="_"))
 colnames(ExtractData)[1]="Activity"
 result<-melt(ExtractData,id=50,measure.vars = 4:49)
-library(plyr)
+
 Tab<-dcast(result,index~variable,mean)
 
 
 setwd(file)
-write.table(Tab,file="result.txt",row.names=FALSE)
+write.table(Tab,file="Q5.txt",row.names=FALSE)
+write.table(ExtractData,file="Q4.txt",row.names=FALSE)
+
+
