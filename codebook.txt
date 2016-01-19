@@ -1,10 +1,3 @@
-The file contains Codebook, readme_original, run_analysis.R, Q4.txt, Q5.txt, features_info
-
-readme_original describes the dataset and how the experiments run.
-
-run_analysis is R code cleanning the original data.
-First please save your file in the working directory
-
 Q4.txt is the table regarding to the project step 1:4.
 It contains 10299 objects and 50 variables.
 
