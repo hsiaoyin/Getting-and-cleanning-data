@@ -15,9 +15,6 @@ subjects:
 Test.Trainning:
 two groups: test group or training group
 
-Index: 
-combines subject and activities.
-
 The other columns please refer to the features_info file
 
 --
